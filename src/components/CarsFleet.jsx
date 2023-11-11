@@ -65,7 +65,7 @@ const CarsFleet = () => {
             </p>
           ))}
         </div>
-        <img src={selectedCar.img} alt="" />
+        <img src={selectedCar.img} alt="" loading="lazy" />
         <div className="carDetailsContainer">
           <table className="carDetails">
             <tbody>
